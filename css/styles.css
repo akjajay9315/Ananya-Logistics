@@ -359,7 +359,7 @@ ul, ol {
     transition: .22s ease;
 }
 #footer-top-text{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 @media(max-width:999px) {
     footer{
