@@ -8,6 +8,7 @@ body{
 }
 h1{
     font-family:'Roboto Condensed',sans-serif;
+    margin-top: 3rem;
     font-weight:1000;
     font-size: 3.3rem;
     line-height: 1.5;
@@ -29,7 +30,7 @@ h1{
 /* Nav bar */
 
 .navbar{
-    padding-bottom: 4.5rem;
+    padding-bottom: 1rem;
 }
 
 .navbar-brand{
@@ -67,8 +68,8 @@ h1{
 
 /* Title-Image */
 .title-img{
-    width: 120%;
-    margin-left:1px ;
+    width: 150%;
+    margin: auto;
     position: relative;
 }
 
