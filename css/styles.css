@@ -183,9 +183,9 @@ p{
 
 h4{
     text-align: center;
-    font-family: fantasy;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 3% 10% ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 h2{
     font-family: sans-serif;
@@ -265,6 +265,10 @@ h3{
     text-align: center;
 }
 
+@media (max) {
+    
+}
+
 .col-md-3 {
     background: #e9f080;
     padding: 4%;
@@ -309,6 +313,16 @@ h3{
 .contact-form button:focus {
     box-shadow: none;
 }
+
+@media (max-width:200px) {
+    .contact-form button:focus {
+            display: block;    
+            box-shadow: none;
+            width: 90%;
+        }
+    
+}
+
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
 }
@@ -373,4 +387,30 @@ ul, ol {
 }
 #AllIndia:hover{
     box-shadow: none;
+}
+
+
+
+.phonebutton {
+    position: relative;
+    top: 1rem;
+    /* margin-bottom: 5rem; */
+}
+
+.phonebutton {
+    background: #b3c26f;
+    background-image: -webkit-linear-gradient(top, #6979b9, #699bab);
+    background-image: -moz-linear-gradient(top, #6979b9,#699bab);
+    background-image: -ms-linear-gradient(top, #6979b9,#699bab);
+    background-image: -o-linear-gradient(top, #6979b9,#699bab);
+    background-image: linear-gradient(to bottom,#6979b9,#699bab);
+    -webkit-border-radius: 40;
+    -moz-border-radius: 40;
+    border-radius: 40px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    border: solid #010b14 1px;
+    text-decoration: none;
 }
